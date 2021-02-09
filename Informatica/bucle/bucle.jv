@@ -1,0 +1,60 @@
+let i=3
+let suma= 0
+while (i<=10000) {
+    if (i%3==0) {
+       suma=suma+i ;
+       i=i+1 
+    } else {
+        i=i+1
+    }
+}
+console.log(`Total suma:${suma}`)
+let h=5
+let suma5=0
+while (h<=10000) {
+    if (h%5==0) {
+       suma5=suma5+h ;
+       h=h+1 
+    } else {
+        h=h+1
+    }
+}
+console.log(`Total suma multiplos de 5:${suma5}`)
+let tre=3
+let cinque=5
+somma=0
+let a=0
+let sumita=0
+while (a<=10000) {
+    if ((a%3==0) && (a%5==0) ) {
+        sumita=sumita+a
+        a=a+1
+    } else {
+     a=a+1   
+    }
+    
+}
+console.log(`Punto 3:${sumita}`)
+let b=3
+let sumo= 0
+while (b<=10000) {
+    if (b%3==0) {
+       sumo=sumo+b ;
+       b=b+1 
+    } else {
+        b=b+1
+    }
+}
+
+let d=5
+let sumación=0
+while (d<=10000) {
+    if (d%5==0) {
+       sumación=sumación+d ;
+       d=d+1 
+    } else {
+        d=d+1
+    }
+}
+somitica=sumo+sumación-sumita*2
+console.log(`Punto 4: ${somitica}`)
