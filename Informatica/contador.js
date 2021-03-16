@@ -1,10 +1,10 @@
-let contador=0
-localStorage.setltem ("visitas", contar)
-let contarExistente=localStorage.getltem("visitas")
+let contar=0
+localStorage.setItem ("visitas", contar)
+let contarExistente=localStorage.getItem("visitas")
 do{
     contar=contar+1
-    localStorage.setltem("visitas", contar)
-    contarExistente=localStorage.getltem("visitas")
-    alert("Ha visitado esta página"+contar+"veces")
-}
-while(contarExistente==contar)
+    localStorage.setItem("visitas", contar)
+
+    contarExistente=localStorage.getItem("visitas")
+    alert("Ha visitado esta página" +contar+ "veces")
+}while(contarExistente==contar)
